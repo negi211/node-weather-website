@@ -49,6 +49,16 @@ button{
         padding: 8px;
 }
 
+.forecast{
+    display:flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    place-items: center;
+}
+
+#msg-2{
+        padding: 0 3%;
+}
 .first-img{
         background-image: url('../image/duck.jfif');
         width: 100%;
